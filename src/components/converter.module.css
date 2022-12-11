@@ -1,0 +1,11 @@
+.converterBlock input {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 20px 20px;
+    letter-spacing: 1.3px;
+    border-radius: 5px;
+    width: 90%;
+    margin-top: 20px;
+    outline: none;
+}

@@ -1,0 +1,29 @@
+.currencyMenu { 
+    background-color: white;
+    color: black;
+    list-style: none;
+}
+
+.currencyMenu li {
+    
+    display: inline-flex;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    padding: 10px 20px;
+    justify-content: center;
+    cursor: pointer;
+    list-style-type: none;
+    user-select: none;
+}
+
+
+.currencyMenu li:hover {
+    background-color: rgba(0, 0, 0, 0.03);
+}
+.currencyMenu li:active {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+
+.currencyMenu li.active {
+    background-color: #16b67f;
+    color: #fff;
+}
